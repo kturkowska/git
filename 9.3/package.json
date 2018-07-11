@@ -14,6 +14,7 @@
     "browser-sync": "^2.24.5",
     "globstar": "^1.0.0",
     "node-sass": "^4.9.2",
-    "nu-html-checker": "^0.1.0"
+    "nu-html-checker": "^0.1.0",
+    "onchange": "^4.0.0"
   }
 }
