@@ -2,7 +2,7 @@
 
 
 
-function phone(brand, price, color) {
+function phone(brand, model, price, color, status) {
 	this.brand = brand;
 	this.model = model;
 	this.price = price;
@@ -15,7 +15,7 @@ phone.prototype.printInfo = function() {
 }
 
 var GalaxyS6 = new phone ("Samsung", "Samsung Galaxy S6", 2100, "black", "prepaid");
-var iPhone6s = new phone ("iPhone", "iPhone 6s" 2300, "white", "subscribtion");
+var iPhone6s = new phone ("iPhone", "iPhone 6s", 2300, "white", "subscribtion");
 var OnePlusOne = new phone ("OnePlus", "OnePlus One", 2000, "silver", "prepaid");
 
 GalaxyS6.printInfo ();
